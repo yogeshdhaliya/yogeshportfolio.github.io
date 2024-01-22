@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yogesh Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/my.jpg" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my.jpg" alt="Yogesh Dhaliya" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Yogesh Dhaliya">Yogesh Dhaliya</h1>
+
+          <p class="title">Data Analyst</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:yogeshdhaliyaa@gmail.com" class="contact-link">yogeshdhaliyaa@gmail.com</a>
+              </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+916350214104" class="contact-link">+916350214104</a>
+            </div>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Pune, MH, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/yogeshdhaliyaa/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/yogeshdhaliya" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@yogeshdhaliyaa" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://twitter.com/yogitweett" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://www.instagram.com/yogesh_dhaliya?igsh=MTYyem53a2RhdzlnMg==" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://docs.google.com/forms/d/1inPgD5lOLRmtosGXzJptS5eWVFpvjFvJrlNWBLg4sbA/edit" class="social-link">
+              <ion-icon name="logo-google"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certificates</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello I'm Yogesh, Aspiring Data Analyst from Pune, India, Currently pursuing a Master's degree in International Business Economics and Finance. 
+
+          <p>
+            I am dedicated to driving data-driven solutions in the professional landscape. With a solid statistical foundation and expertise in Python, Machine learning, EDA, Tableau, and SQL.
+          </p>
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/da.png
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analysis</h4>
+
+                <p class="service-item-text">
+                  Your data storyteller: Turning numbers into simple tales. Expert in explaining stats—whether it's the basics or uncovering hidden patterns.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/BI.png" alt="BI Tools icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Business Intelligence</h4>
+
+                <p class="service-item-text">
+                  Crafting data tales with BI tools: Translating statistics into visual stories for a clearer understanding.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/db.png" alt="SQL icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Management</h4>
+
+                <p class="service-item-text">
+                  Unleashing the Power of Structured Query Language for Data Transformation and Cleansing.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ml.png" alt="ML icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">ML Ops</h4>
+
+                <p class="service-item-text">
+                  Seamlessly bridging machine learning and operations for peak performance and efficiency. Transforming data into decisions with precision and speed.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Message for you</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/bit.png" alt="Yogesh" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Yogesh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Hello there! Welcome to my world of data and insights. Feel the warmth of exploration as you browse through my portfolio. If you have any thoughts or just want to say hi, I'm all ears! Enjoy your visit.
+                  </p>
+                </div>
+
+              </div>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/bit.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        
+
+         <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+        -->
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #Projects
+      -->
+
+      <article class="projects" data-page="projects">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Python</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Tableau</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>SQL</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Excel</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-select-item>Python</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Tableau</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>SQL</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Excel</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item active" data-filter-item data-category="tableau">
+              <a href="https://public.tableau.com/app/profile/yogesh.dhaliya/viz/BikeStoresDashboard_17058681269250/Dashboard1" style="color: white;">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Bike.png" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title" style="color: white;">Bike Stores Revenue</h3>
+                <p class="project-category"> Dashboard
+                  <a href="https://github.com/yogeshdhaliya/Bike-Stores-Revenue" class="social-link" style="color: whitesmoke;">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="tableau">
+              <a href="https://www.linkedin.com/posts/yogeshdhaliyaa_tableaudashboard-top1000movies-imdbrankings-activity-7072052056676515840-U_qe?utm_source=share&utm_medium=member_desktop" style="color: white;">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/IMDB.png" alt="fundo" loading="lazy">
+                </figure>
+                <h3 class="project-title" style="color: white;">Top 1000 IMDb Movies</h3>
+                <p class="project-category"> EDA & Dashboard
+                  <a href="https://github.com/yogeshdhaliya/IMDb/blob/main/eda-on-imdb-movies-dataset.ipynb" class="social-link" style="color: whitesmoke; display: inline-block; margin-right: 5px;">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                  <a href="https://www.linkedin.com/posts/yogeshdhaliyaa_tableaudashboard-top1000movies-imdbrankings-activity-7072052056676515840-U_qe?utm_source=share&utm_medium=member_desktop" class="social-link" style="color: whitesmoke; display: inline-block;">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </p>
+                
+                
+              </a>
+            </li>    
+
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/yogeshdhaliya/Calories_burnt_Prediction/blob/main/Calories_Burnt_Prediction.ipynb">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/cl.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Calories Burnt Prediction</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Gokhale Institute of Politics and Economics, Pune, India</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Masters in International Business Economics & Finance 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University Of Rajasthan, Jaipur, India </h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Maths, Physics & Economics
+              </p>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Science Intern at StatSkew</h4>
+
+              <span>June'23 — Aug'23</span>
+
+              <p class="timeline-text">
+                Applied machine learning algorithms including linear regression, logistic regression, decision trees and random forests to create predictive models
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Financial Market Intern at Finlatics</h4>
+
+              <span>Feb'23 — May'23</span>
+
+              <p class="timeline-text">
+                Created, managed, and maintained a real-time simulated portfolio on BSE 500 listed companies
+              </p>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Tableau</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+          </li>
+
+          <li class="skills-item">
+
+            <div class="title-wrapper">
+              <h5 class="h5">Excel</h5>
+              <data value="90">80%</data>
+            </div>
+
+            <div class="skill-progress-bg">
+              <div class="skill-progress-fill" style="width: 80%;"></div>
+            </div>
+
+          </li>
+
+        </li>
+
+        <li class="skills-item">
+
+          <div class="title-wrapper">
+            <h5 class="h5">Statistics</h5>
+            <data value="90">90%</data>
+          </div>
+
+          <div class="skill-progress-bg">
+            <div class="skill-progress-fill" style="width: 90%;"></div>
+          </div>
+
+        </li>
+          
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+      <!--
+        - #Certificates
+      -->
+
+      <article class="certificates" data-page="certificates">
+
+        <header>
+          <h2 class="h2 article-title">Certificates</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://www.coursera.org/account/accomplishments/specialization/certificate/L88GVG8BZWT3">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/IBM2.png" alt="Data Science Professional Certificate" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">IBM</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2023-05-31">May 31, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title"> Data Science Professional Certificate</h3>
+                  <p class="blog-text">
+                    Gained full-stack data science expertise with the IBM Data Science Professional Certificate, mastering Python, EDA, feature engineering, SQL, and delivering a successful capstone project. 
+                  </p>
+                </div>
+
+              </a>
+
+            <li class="blog-post-item">
+              <a href="https://coursera.org/share/ec42606807287fe6938908c0c9fe109b">
+  
+                <figure class="blog-banner-box">
+                   <img src="./assets/images/sql.png" alt="Databases and SQL for Data Science with Python" loading="lazy">
+                </figure>
+  
+                <div class="blog-content">
+  
+                  <div class="blog-meta">
+                    <p class="blog-category">IBM</p>
+  
+                    <span class="dot"></span>
+  
+                    <time datetime="2023-05-31">May 31, 2023</time>
+                  </div>
+  
+                  <h3 class="h3 blog-item-title"> Databases and SQL for Data Science with Python </h3>
+                  <p class="blog-text">
+                    Completed IBM's SQL course on Coursera, mastering essential skills in database querying, data modeling, and administration. Achieved certification, demonstrating proficiency in SQL for real-world applications. 
+                  </p>
+                </div>
+  
+              </a>
+            <li class="blog-post-item">
+              <a href="https://coursera.org/share/ec42606807287fe6938908c0c9fe109b">
+  
+                <figure class="blog-banner-box">
+                   <img src="./assets/images/tab.png" alt="Tableau for Data Science" loading="lazy">
+                </figure>
+  
+                <div class="blog-content">
+  
+                  <div class="blog-meta">
+                    <p class="blog-category">Tableau</p>
+  
+                    <span class="dot"></span>
+  
+                    <time datetime="2023-05-31">May 31, 2023</time>
+                  </div>
+  
+                  <h3 class="h3 blog-item-title"> Data Science with Tableau </h3>
+                  <p class="blog-text">
+                    Gained expertise in DAX for advanced data modeling and analysis. Skilled in creating impactful visualizations, utilizing filters, dimensions, and measures for insightful dashboards.
+                  </p>
+                </div>
+  
+              </a>
+                
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/JH.png" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Johns Hopkins</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-06-30">June 30, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Advanced Linear Models for Data Science
+                  </h3>
+
+                  <p class="blog-text">
+                      Mastered least squares in Advanced Linear Models for Data Science, enhancing my regression modeling skills. Equipped with a solid foundation to elevate applied data science insights.
+                  </p>
+                </div>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
